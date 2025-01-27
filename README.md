@@ -1,4 +1,4 @@
-# End-to-end-project
+# End-to-end-CI/CD-project
 This project focuses on creating an end-to-end deployment pipeline for a static web application using tools like Terraform, Docker, Kubernetes, and GitHub Actions. The goal is to deploy a small static or web application using AWS Free Tier resources to avoid or reduce charges.
 
 
