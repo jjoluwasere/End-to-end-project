@@ -113,8 +113,16 @@ This is what it should look like in vscode once that is completed.<br><br>
 
 ![image](https://github.com/user-attachments/assets/1ca24b1f-5aea-4c10-bf2b-5d92a3a3a2ea) <br><br>
 
+After this i deployed my infrastructure. <br>
+
+- **terraform init**
+- **terraform plan**
+- **terraform apply**
+
+![image](https://github.com/user-attachments/assets/f0b66407-f882-4920-8ffe-f5da9c36afc9) <br><br>
 
 
+## Step 4:  CI/CD Pipeline with GitHub Actions<br><br>
 
 
 
