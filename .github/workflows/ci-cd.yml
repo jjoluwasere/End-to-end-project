@@ -53,9 +53,12 @@ jobs:
           chmod +x kubectl
           sudo mv kubectl /usr/local/bin
 
+      - name: 'Debug: List Clusters'
+        run: eksctl get cluster
+
       - name: Update kubeconfig
         run: |
-          eksctl utils write-kubeconfig --cluster ClusterForProject
+          eksctl utils write-kubeconfig --cluster ClusterForProject --region us-east-1
 
       - name: Deploy to Kubernetes
         run: |
